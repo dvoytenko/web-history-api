@@ -73,7 +73,9 @@ To navigate, the user code would simply use normal HTML markup, or would call `l
 in JavaScript.
 
 That's it. No global listeners needed, no special state management. In fact, the browser's history
-is not even manipulated directly here.
+is not even manipulated directly here. An added benefit is that `performance` API would be able
+to properly measure the performance of client-side navigation, which would have downstream benefits
+for tools and performance analytics.
 
 ### Overlaying UX and back button support
 
