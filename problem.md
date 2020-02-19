@@ -93,9 +93,9 @@ state completely. More on this later.
 There's another annoyance with using history stack for this use case. E.g. a popup could create a new
 history state. However, if a web page is reloaded, it'd not typically want to re-open a popup. Thus
 this history state is not very useful - it's more of a filler to intercept the back button. The back
-button support, in this case, is more comparable to the Esc key handling, which most of such UIs
+button support, in this case, is more comparable to the <kbd>Esc</kbd> key handling, which most of such UIs
 currently do anyway. In fact, maybe a simpler approach for the new API to allow the history state to
-be bound to the Esc key, which will be automatically emited when the state is popped.
+be bound to the <kbd>Esc</kbd> key, which will be automatically emited when the state is popped.
 
 ### Preserving history state
 
