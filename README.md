@@ -5,3 +5,7 @@ The goal for this repository to summarize major problems with the [Web History A
 See the [problem definition](https://github.com/dvoytenko/web-history-api/blob/master/problem.md).
 
 some more
+
+## Changelog
+
+* Updated spec to v2
